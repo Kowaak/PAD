@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1694510073 source:d:\3m\kwadratowa\main.cpp
+	<iostream>
+	<math.h>
+
+1694768938 source:d:\3m gr1\kwadratowa\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
