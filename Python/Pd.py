@@ -9,6 +9,6 @@ for i in a:
     if(i<=n):
         w = w * x +a[i]
         i = i + 1
-        ilosc += 1
+        ilosc += 2
 print(w)
 print(ilosc)
