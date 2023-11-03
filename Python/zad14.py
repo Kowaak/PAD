@@ -12,7 +12,6 @@ x = int(input('Podaj x: '))
 w = a[0]
 i = 1
 for i in a:
-    if(i<=n):
         w = w * x +a[i]
         i = i + 1
 print(w)
