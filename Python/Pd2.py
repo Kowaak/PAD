@@ -1,13 +1,17 @@
-import math
-n = int(input('Podaj n: '))
-a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]
-x = int(input('Podaj x: '))
-w = a[0]
-ilosc = 0
-i = 1
-for i in a:
-        
-        
-        ilosc += 
-print(w)
-print(ilosc)
+A = [2,2,2,2]
+x = 2
+n = len(A)
+w = 0
+mnozenia = 0
+dodawania = 0
+for i in range(n):
+    potega = 1
+    for j in range(i):
+        potega *= x
+        mnozenia += 1
+    w = w + A[i] * potega
+    if i > 0:
+        dodawania += 1
+print("Wynik:", w)
+print("Ilość mnożeń:", mnozenia)
+print("Ilość dodawań:", dodawania)
